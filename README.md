@@ -1,12 +1,15 @@
 ## Title
 File Manipulator Program
 ## Memo
-1.引数という形で入力を受取、それらの引数に基づいて特定の操作を実行すること。
+1.ファイルの読み書きとシェルの引数入力の取り方を学ぶために'file_manipulator.py'を作成する
 
-2.このプログラムは、コマンドラインインターフェースから実行される。
-
-3.上記を作成するプログラムはfile_manipulator.pyと呼ぶ。
 ## file_manipulator.pyについて
-1.作成するコマンド'reverse' : 入力ファイルの内容を反転させ、その結果を出力ファイルに書き出す。
+- 'reverse inputpath outputpath'
+inputpathにあるファイルを受取、outputpathにinputpathの内容を逆にした新しいファイルを作成します。
+- 'copy inputpath outputpath' 
+inputpathにあるファイルのコピーを作成し、outputpathとして保存します
+- 'duplicate-contents inputpath n'
+inputpathにあるファイルの内容を読み込み、その内容を複製し、複製された内容をinputpathにn回複製します。
+- 'replace-string inputpath needle newstring'
+inputpathにあるファイルの内容から文字列'needle'を検索し、'needle'の全てを'newstring'に置き換えます。
 
-一旦保留
