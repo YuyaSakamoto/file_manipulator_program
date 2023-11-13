@@ -1,7 +1,9 @@
 ## Title
 File Manipulator Program
 ## Memo
-1.ファイルの読み書きとシェルの引数入力の取り方を学ぶために'file_manipulator.py'を作成する
+1.ファイルの読み書きとシェルの引数入力の取り方を学ぶために'file_manipular'を作成する
+
+2. CLI'main.py [command] [option] [option]'と入力すれば動く
 
 ## file_manipulator.pyについて
 - 'reverse inputpath outputpath'
